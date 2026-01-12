@@ -50,22 +50,22 @@ The `puddle.py` script provides a command-line interface to search for AI models
 ![](help.png)
 ```bash
 # Search for a specific keyword on all platforms
-python main.py search --site all --keyword "nature"
+python puddle.py search --site all --keyword "nature"
 
 # Search all keywords from keywords.txt on CivitAI
-python main.py search --site civitai --keyword all
+python puddle.py search --site civitai --keyword all
 
 # Generate statistics for Huggingface data
-python main.py stats --site huggingface
+python puddle.py stats --site huggingface
 
 # Merge all statistics into a CSV file
-python main.py merge --output statistics.csv
+python puddle.py merge --output statistics.csv
 
 # Run full workflow and save as Excel
-python main.py full --output statistics.xlsx
+python puddle.py full --output statistics.xlsx
 
 # Show statistics with top 30 keywords and 15 models per category with the option to blur nsfw data
-python main.py show --input statistics.xlsx --top-keywords 30 --models-per-download 15 --blur
+python puddle.py show --input statistics.xlsx --top-keywords 30 --models-per-download 15 --blur
 ```
 
 ## Example Output
