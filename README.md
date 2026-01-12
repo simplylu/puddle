@@ -1,7 +1,7 @@
 ## About
 Puddle searches and analyzes AI models across Huggingface, CivitAI, and Shakker AI platforms based on keywords. It collects statistics on model usage, downloads, bookmarks, and other metrics to provide insights into model popularity and trends.
 
-Originally created to analyze the landscape of open-source models used for adult content generation.
+Originally created to analyze the landscape of open-source models used to create content that falls under TFSV (Technology Enabled Sexual Violence) by only using NSFW search queries, but it can be used for any other SFW keywords as well.
 ## Installation
 
 1. Clone the repository:
@@ -153,3 +153,36 @@ mix                                32
 Total unique keywords: 2733
 Total tokens analyzed: 6197
 ```
+
+### Explanation of Key Metrics
+The metric of downloadCount + runCount has been taken into account for the [AI TFSV Counter Dashboard](https://simplylu.github.io/ai-tfsv-counter/), so I will explain below how that number was calculated, and why it is probably way too low.
+#### Downloads Per Hour
+The `downloadsPerHour` metric is calculated to measure the average number of downloads a model receives per hour since its creation. This is computed using the formula:
+
+$$ downloadsPerHour = downloadCount / hoursSinceCreation $$
+
+Where:
+- `downloadCount` is the total number of downloads for the model.
+- `hoursSinceCreation` is the time elapsed (in hours) since the model was created, calculated as the difference between the current time and the model's `createdAt` timestamp.
+
+This metric helps identify models that are gaining popularity quickly, regardless of their total download count.
+
+#### Runs Per Hour
+The `runsPerHour` metric is used to measure the average number of times a model is run per hour since its creation. It is calculated similarly to `downloadsPerHour`:
+
+$$ runsPerHour = runCount / hoursSinceCreation $$
+
+Where:
+- `runCount` is the total number of times the model has been run.
+- `hoursSinceCreation` is the time elapsed (in hours) since the model was created.
+
+This metric is particularly useful for platforms like Shakker AI, where the number of runs is a key indicator of model usage.
+
+#### Final Assumption: 999 Images Per Hour
+The final result of 999 (downloads per hour (*839.23*) + runs per hour (*159.94*)) is a rough assumption based on the sum of the data from 1354 models across 3 platforms. It is important to note:
+- This value does not account for how many images, if any, were generated after downloading a model.
+- There may be additional platforms hosting these NSFW models, including those on the darknet, which were not included in this analysis.
+- The analysis was limited to 11 keywords, meaning the scope of the data is inherently restricted.
+
+Given these factors, the value of 999 images per hour is likely a significant underestimation. However, it represents the best approximation based on the available data.
+
