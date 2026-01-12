@@ -39,6 +39,8 @@ cp .env.sample .env
 
 The `puddle.py` script provides a command-line interface to search for AI models across multiple platforms (Huggingface, CivitAI, and Shakker AI), collect statistics, and analyze the results.
 
+Files are stored by default in the `./data` directory.
+
 ### Available Commands
 
 - **`search`** - Search for models using keywords on specified platforms
