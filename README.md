@@ -73,7 +73,7 @@ python puddle.py show --input statistics.xlsx --top-keywords 30 --models-per-dow
 ```txt
 ==================================================
 Statistics Summary
-Keywords: v*g*n*, s*xy, p*rn, br**sts, b**bs, t*ts, sl*t, *ss, *n*l, bdsm, *rg*sm, m*st*rb*t**n, p*ssy, f*ck
+Keywords: vagina, sexy, porn, breasts, boobs, tits, slut, ass, anal, bdsm, orgasm, masturbation, pussy, fuck
 Total Models: 1,354
 ==================================================
 
@@ -100,51 +100,54 @@ Shakker:
 Top 20 Models by Downloads Per Hour
 ==================================================
                                               name      source  downloadCount  hours_since_creation  downloads_per_hour    tag
-                                    Pony Realism 🔮     civitai         486792          15719.741509           30.966921   porn
-                                          MeinaMix     civitai         499947          25681.510639           19.467196   sexy
-✨ JANKU Trained + NoobAI + RouWei Illustrious XL ✨     civitai         145029           7815.383829           18.556862   sexy
-                Realism Illustrious By Stable Yogi     civitai         182473           9966.432784           18.308757   sexy
-                          iNiverse Mix(SFW & NSFW)     civitai         285858          18382.595928           15.550470   sexy
-Hands XL + SD 1.5 + F1D + Pony + Illustrious + zit     civitai         256876          18958.347838           13.549493   sexy
-                           pornmasterPro_noobV3VAE huggingface          72847           5594.511557           13.021155   porn
-                                     Nova Furry XL     civitai         175789          13987.711838           12.567388   sexy
-                              AnyLoRA - Checkpoint     civitai         289549          24599.627048           11.770463   sexy
-                                  XXMix_9realistic     civitai         253582          23925.114374           10.598988   sexy
-                            Doll Likeness - by EDG     civitai         254650          24042.343580           10.591730   sexy
-                                            Photon     civitai         224468          22841.954236            9.827005   sexy
-                                  NSFW MASTER FLUX     civitai         115288          12243.710053            9.416100 vagina
-                    pornworks-sexy-beauty-v04-sdxl huggingface         107861          11659.203779            9.251146   sexy
-                             Hairstyles Collection     civitai         198547          23095.405808            8.596818   sexy
-                         STYLES | PONY & ANIMAGINE     civitai         120556          14568.276375            8.275241   sexy
-                                 PerfectDeliberate     civitai         200447          24574.599860            8.156674   sexy
-                  Analog Madness - Realistic model     civitai         207451          25589.513355            8.106876   sexy
-                                         sexyToons huggingface         173132          21608.957946            8.012048   sexy
-                            Illustrious Style Pack     civitai          70850           9279.937228            7.634750   sexy
+                                    Pony Realism 🔮     civitai         486792          15719.970459           30.966470   porn
+                                          MeinaMix     civitai         499947          25681.739588           19.467022   sexy
+✨ JANKU Trained + NoobAI + RouWei Illustrious XL ✨     civitai         145029           7815.612778           18.556319   sexy
+                Realism Illustrious By Stable Yogi     civitai         182473           9966.661734           18.308337   sexy
+                          iNiverse Mix(SFW & NSFW)     civitai         285858          18382.824877           15.550276   sexy
+Hands XL + SD 1.5 + F1D + Pony + Illustrious + zit     civitai         256876          18958.576788           13.549329   sexy
+                           pornmasterPro_noobV3VAE huggingface          72847           5594.740506           13.020622   porn
+                                     Nova Furry XL     civitai         175789          13987.940787           12.567182   sexy
+                              AnyLoRA - Checkpoint     civitai         289549          24599.855997           11.770353   sexy
+                                  XXMix_9realistic     civitai         253582          23925.343323           10.598887   sexy
+                            Doll Likeness - by EDG     civitai         254650          24042.572530           10.591629   sexy
+                                            Photon     civitai         224468          22842.183185            9.826907   sexy
+                                  NSFW MASTER FLUX     civitai         115288          12243.939002            9.415924 vagina
+                    pornworks-sexy-beauty-v04-sdxl huggingface         107861          11659.432728            9.250965   sexy
+                             Hairstyles Collection     civitai         198547          23095.634758            8.596733   sexy
+                         STYLES | PONY & ANIMAGINE     civitai         120556          14568.505324            8.275111   sexy
+                                 PerfectDeliberate     civitai         200447          24574.828810            8.156598   sexy
+                  Analog Madness - Realistic model     civitai         207451          25589.742304            8.106803   sexy
+                                         sexyToons huggingface         173132          21609.186895            8.011963   sexy
+                            Illustrious Style Pack     civitai          70850           9280.166178            7.634562   sexy
 ==================================================
-Total Downloads per Hour Across All Models: 839.27
+Total Downloads per Hour Across All Models: 839.23
+
+Total Runs per Hour Across All Models: 159.94
+==================================================
 
 Top 20 Most Used Keywords in Model Names
 ==================================================
-p*ny                              121
-styl*                             117
+pony                              121
+style                             117
 sdxl                              109
-l*r*                              107
-s*xy                               96
-*ll*str***s                        76
-br**sts                            76
+lora                              107
+sexy                               96
+illustrious                        76
+breasts                            76
 xl                                 73
-*n*m*                              60
-fl*x                               54
-p*rn                               51
-g*rl                               44
-r**l*st*c                          43
-p*rnm*st*r                         43
+anime                              60
+flux                               54
+porn                               51
+girl                               44
+realistic                          43
+pornmaster                         43
 &                                  38
 +                                  38
-**                                 38
+ai                                 38
 nsfw                               37
-*l                                 37
-m*x                                32
+il                                 37
+mix                                32
 ==================================================
 
 Total unique keywords: 2733

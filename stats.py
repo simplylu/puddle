@@ -37,6 +37,13 @@ def print_stats(fname: str, top_n_keywords: int = 50, models_per_download: int =
         else 0,
         axis=1
     )
+    
+    df['run_count_per_hour'] = df.apply(
+        lambda row: row['runCount'] / row['hours_since_creation']
+        if row['hours_since_creation'] > 0 and pd.notna(row['runCount']) and row['runCount'] > 0
+        else 0,
+        axis=1
+    )
 
     # Extract all model names for keyword analysis
     names = df['name'].dropna().tolist()
@@ -100,6 +107,9 @@ def print_stats(fname: str, top_n_keywords: int = 50, models_per_download: int =
     print(top_by_rate.to_string(index=False))
     print("=" * 50)
     print("Total Downloads per Hour Across All Models: {:,.2f}".format(df['downloads_per_hour'].sum()))
+    print()
+    print("Total Runs per Hour Across All Models: {:,.2f}".format(df['run_count_per_hour'].sum()))
+    print("=" * 50)
 
     print(f"\nTop {top_n_keywords} Most Used Keywords in Model Names")
     print("=" * 50)
