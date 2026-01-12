@@ -30,6 +30,7 @@ Before running the script for the first time:
 
 ```bash
 cp keywords.txt.sample keywords.txt
+# Add the keywords you want to have to keywords.txt
 cp .env.sample .env
 # Edit .env and add your HUGGINGFACE_API_KEY
 ```
